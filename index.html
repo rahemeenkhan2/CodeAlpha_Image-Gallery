@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PixelGallery | Modern Image Gallery</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="navbar">
+
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <span class="logo-icon">P</span>
+                <span>Pixel<span>Gallery</span></span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+
+                <button class="search-btn" id="searchBtn" title="Search">
+                    &#128269;
+                </button>
+
+                <button class="menu-btn" id="menuBtn" title="Menu">
+                    &#9776;
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-heading">EXPLORE • DISCOVER • INSPIRE</p>
+
+            <h1>
+                Discover Beautiful
+                <span>Moments</span>
+            </h1>
+
+            <p class="hero-text">
+                Explore our collection of beautiful photographs
+                from nature, cities, animals and amazing destinations.
+            </p>
+
+            <a href="#gallery" class="hero-btn">
+                Explore Gallery
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY SECTION ================= -->
+
+    <section class="gallery-section" id="gallery">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">OUR COLLECTION</p>
+
+                <h2>Explore The Gallery</h2>
+            </div>
+
+            <p class="section-description">
+                Browse through our collection and discover
+                something beautiful.
+            </p>
+
+        </div>
+
+
+        <!-- Filter Buttons -->
+
+        <div class="filters">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="nature">
+                Nature
+            </button>
+
+            <button class="filter-btn" data-filter="city">
+                City
+            </button>
+
+            <button class="filter-btn" data-filter="animals">
+                Animals
+            </button>
+
+            <button class="filter-btn" data-filter="travel">
+                Travel
+            </button>
+
+        </div>
+
+
+        <!-- Gallery -->
+
+        <div class="gallery">
+
+            <!-- Image 1 -->
+            <div class="gallery-item" data-category="nature">
+
+                <img src="https://picsum.photos/id/1018/900/700"
+                     alt="Mountain landscape">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>Nature</p>
+                        <h3>Mountain Escape</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 2 -->
+            <div class="gallery-item" data-category="nature">
+
+                <img src="https://picsum.photos/id/1015/900/700"
+                     alt="River landscape">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>Nature</p>
+                        <h3>Peaceful River</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 3 -->
+            <div class="gallery-item" data-category="city">
+
+                <img src="https://picsum.photos/id/1011/900/700"
+                     alt="City">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>City</p>
+                        <h3>Urban Life</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 4 -->
+            <div class="gallery-item" data-category="city">
+
+                <img src="https://picsum.photos/id/1031/900/700"
+                     alt="City architecture">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>City</p>
+                        <h3>Modern Architecture</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 5 -->
+            <div class="gallery-item" data-category="animals">
+
+                <img src="https://picsum.photos/id/1025/900/700"
+                     alt="Dog">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>Animals</p>
+                        <h3>Lovely Friend</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 6 -->
+            <div class="gallery-item" data-category="animals">
+
+                <img src="https://picsum.photos/id/237/900/700"
+                     alt="Cute dog">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>Animals</p>
+                        <h3>Happy Moments</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 7 -->
+            <div class="gallery-item" data-category="travel">
+
+                <img src="https://picsum.photos/id/1036/900/700"
+                     alt="Travel destination">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>Travel</p>
+                        <h3>Adventure</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image 8 -->
+            <div class="gallery-item" data-category="travel">
+
+                <img src="https://picsum.photos/id/1043/900/700"
+                     alt="Beautiful destination">
+
+                <div class="image-overlay">
+
+                    <div>
+                        <p>Travel</p>
+                        <h3>Explore The World</h3>
+                    </div>
+
+                    <button class="view-btn">
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <p class="section-label">ABOUT US</p>
+
+            <h2>
+                Every Picture Tells
+                A Story.
+            </h2>
+
+            <p>
+                PixelGallery is a simple modern image gallery
+                created to showcase beautiful photography.
+                Explore different categories and enjoy every
+                moment through photography.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Have Something To Share?</h2>
+
+        <p>
+            We'd love to hear from you.
+        </p>
+
+        <a href="mailto:hello@example.com" class="contact-btn">
+            Contact Us
+        </a>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            Pixel<span>Gallery</span>
+        </div>
+
+        <p>
+            © 2026 PixelGallery. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button class="close-btn" id="closeBtn">
+            &times;
+        </button>
+
+        <button class="prev-btn" id="prevBtn">
+            &#10094;
+        </button>
+
+        <img id="lightboxImage" src="" alt="Gallery preview">
+
+        <button class="next-btn" id="nextBtn">
+            &#10095;
+        </button>
+
+        <div class="image-counter" id="imageCounter">
+            1 / 8
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
